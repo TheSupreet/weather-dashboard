@@ -60,7 +60,7 @@ WEATHER-APP
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/TheSupreet/weather-dashboard
    cd weather-dashboard
    ```
 ````
