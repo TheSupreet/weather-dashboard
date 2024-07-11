@@ -60,7 +60,7 @@ const data = [
 const ForecastChart = () => {
   const { weather, thisLocation, values, setPlace, place } = useStateContext()
 
-  const forecastSevenDays = values.slice(0, 7)
+  const forecastSevenDays = values.slice(1, 8)
 
   // Function to format datetimeStr to "Day Mon"
   function formatDay (dateStr) {
@@ -86,7 +86,6 @@ const ForecastChart = () => {
         display: 'flex',
         justifyContent: 'center',
         padding: '20px',
-        width: '100%'
       }}
     >
       <Box sx={{ width: '100%', maxWidth: '1200px' }}>

@@ -57,7 +57,7 @@ const Header = () => {
       direction='row'
       alignItems='center'
       justifyContent='space-between'
-      sx={{ padding: '10px 0 40px 0' }}
+      sx={{ padding: '10px 0 5px 0' }}
       spacing={2}
     >
       <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -65,7 +65,10 @@ const Header = () => {
           sx={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            background: '#222222',
+            width: '30rem',
+            borderRadius: '2rem'
           }}
         >
           <img

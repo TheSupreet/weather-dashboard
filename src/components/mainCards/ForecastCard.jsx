@@ -6,7 +6,7 @@ import { useStateContext } from "../../Context";
 const ForecastCard = () => {
   const { values } = useStateContext();
 
-  const forecastSevenDays = values.slice(0, 7);
+  const forecastSevenDays = values.slice(1, 8);
 
   // Utility function to convert datetimeStr to the day of the week
   const getDayOfWeek = (datetimeStr) => {

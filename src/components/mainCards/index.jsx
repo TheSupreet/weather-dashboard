@@ -22,7 +22,7 @@ const CurrentWeather = () => {
 
   const { weather, values } = useStateContext()
 
-  const forecastSevenDays = values.slice(0, 7)
+  const forecastSevenDays = values.slice(1, 8)
 
   const today = new Date()
   const year = today.getFullYear()
